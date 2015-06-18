@@ -59,7 +59,7 @@
                         </ul>
                     </li>
                     <li class="dropdown @if(Request::segment(1)=='profile' || Request::segment(1)=='user') active @endif">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ _('My account')}} <span
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ _('home')}} <span
                                     class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>{{ link_to('profile', _('Profile')) }}</li>
